@@ -1,0 +1,121 @@
+<!--
+theme name:     Piterial
+version:        0.5
+author:         Chris
+email:          Systemlogoffsa@gmail.com
+website:
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon-master" by Rookervik
+follwing:       Make your own theme guide by mattrixk
+-->
+
+<theme>
+
+    <formatVersion>4</formatVersion>
+
+    <view name="system, basic, detailed">
+      <image name="background_color" extra="true">
+        <path>./_resources/bg.png</path>
+          <origin>0.5 0.5</origin>
+          <pos>0.5 0.5</pos>
+          <size>1 1</size>
+          <tile>true</tile>
+          <color>546E7A</color>
+      </image>
+
+      <image name="background_help" extra="true">
+        <path>./_resources/px.png</path>
+        <origin>0 1</origin>
+        <pos>0 1</pos>
+        <size>1.1 0.068</size>
+        <color>f0f0f0EE</color>
+      </image>
+
+      <helpsystem name="help">
+          <textColor>666666</textColor>
+          <iconColor>555555</iconColor>
+          <fontPath>./_resources/Roboto-Regular.ttf</fontPath>
+          <fontSize>0.03</fontSize>
+      </helpsystem>
+
+    </view>
+
+    <view name="detailed">
+  		<image name="ControllerOverlayTwo2" extra="true">
+  			<tile>false</tile>
+  			<pos>0.47 0.35</pos>
+  			<origin>0 0</origin>
+  			<size>0.2 0</size>
+  			<path>./_resources/rashroom.svg</path>
+  			<color>f0f0f0f0</color>
+  		</image>
+    </view>
+
+    <view name="basic">
+  		<image name="ControllerOverlayTwo1" extra="true">
+  			<tile>false</tile>
+  			<pos>0.8 0.55</pos>
+  			<origin>0.5 0.5</origin>
+  			<size>0.2 0</size>
+  			<path>./_resources/rashroom.svg</path>
+  			<color>f0f0f0f0</color>
+  		</image>
+    </view>
+
+    <view name="basic, detailed">
+
+      <textlist name="gamelist">
+          <selectorColor>F0F0F0CC</selectorColor>
+          <selectedColor>0c0c0cCC</selectedColor>
+          <primaryColor>FFFFFFCC</primaryColor>
+          <secondaryColor>888888CC</secondaryColor>
+          <fontPath>./_resources/Roboto-Regular.ttf</fontPath>
+          <pos>0.02 0.2</pos>
+          <size>0.4 0.71</size>
+          <fontSize>0.04</fontSize>
+          <horizontalMargin>0.02</horizontalMargin>
+      </textlist>
+
+      <image name="md_image">
+          <origin>0 0</origin>
+          <pos>0.45 0.2</pos>
+          <maxSize>0.52 0.7</maxSize>
+      </image>
+
+      <text name="md_description">
+        <pos>9 9</pos>
+        <size>0.53 0.2</size>
+        <color>000000</color>
+        <fontPath>./_resources/Roboto-Regular.ttf</fontPath>
+        <fontSize>0.026</fontSize>
+        <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <lineSpacing>1.6</lineSpacing>
+      </text>
+
+
+    <text name="md_lbl_rating"><pos>9 9</pos></text>
+    <text name="md_lbl_releasedate"><pos>9 9</pos></text>
+    <text name="md_lbl_developer"><pos>9 9</pos></text>
+    <text name="md_lbl_publisher"><pos>9 9</pos></text>
+    <text name="md_lbl_genre"><pos>9 9</pos></text>
+    <text name="md_lbl_players"><pos>9 9</pos></text>
+    <text name="md_lbl_lastplayed"><pos>9 9</pos></text>
+    <text name="md_lbl_playcount"><pos>9 9</pos></text>
+
+          <image name="background_help_top" extra="true">
+            <path>./_resources/px.png</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 0.16</size>
+            <color>f0f0f0EE</color>
+          </image>
+
+    </view>
+
+
+
+
+
+
+</theme>

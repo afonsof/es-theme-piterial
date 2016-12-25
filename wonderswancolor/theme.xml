@@ -1,0 +1,54 @@
+<theme>
+
+    <formatVersion>4</formatVersion>
+    <include>./../piterial.xml</include>
+
+    <view name="system">
+      <image name="background_color" extra="true">
+        <color>1A237E</color>
+      </image>
+
+
+    	<image name="logo">
+  			<path>./system.svg</path>
+      </image>
+
+  		<image name="ControllerOverlay" extra="true">
+  			<tile>false</tile>
+  			<pos>0.5 0.2</pos>
+  			<origin>0.5 0.5</origin>
+  			<size>0.3 0</size>
+  			<path>./controller.svg</path>
+  			<color>f0f0f0ff</color>
+  		</image>
+
+  		<image name="ControllerOverlayTwo" extra="true">
+  			<tile>false</tile>
+  			<pos>0.5 0.81</pos>
+  			<origin>0.5 0.5</origin>
+  			<size>0.1 0</size>
+  			<path>./../_resources/rashroom.svg</path>
+  			<color>f0f0f0f0</color>
+  		</image>
+
+    </view>
+
+
+
+    <view name="basic, detailed">
+      <image name="background_color" extra="true">
+        <color>1A237E</color>
+      </image>
+
+      <image name="logo">
+        <path>./system.svg</path>
+  			<pos>0.005 0.015</pos>
+  			<maxSize>0.460 0.126</maxSize>
+  			<origin>0 0</origin>
+		  </image>
+
+    </view>
+
+    <view name="detailed"></view>
+
+</theme>
