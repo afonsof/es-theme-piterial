@@ -84,7 +84,7 @@ follwing:       Make your own theme guide by mattrixk
 
       <text name="md_description">
         <pos>9 9</pos>
-        <size>0.53 0.2</size>
+        <size>0.48 0.2</size>
         <color>000000</color>
         <fontPath>./_resources/Roboto-Regular.ttf</fontPath>
         <fontSize>0.026</fontSize>
