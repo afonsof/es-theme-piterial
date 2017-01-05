@@ -71,9 +71,10 @@ follwing:       Make your own theme guide by mattrixk
           <secondaryColor>888888CC</secondaryColor>
           <fontPath>./_resources/Roboto-Regular.ttf</fontPath>
           <pos>0.02 0.2</pos>
-          <size>0.4 0.71</size>
-          <fontSize>0.04</fontSize>
+          <size>0.4 0.68</size>
+          <fontSize>0.03</fontSize>
           <horizontalMargin>0.02</horizontalMargin>
+          <alignment>left</alignment>
       </textlist>
 
       <image name="md_image">
@@ -84,7 +85,7 @@ follwing:       Make your own theme guide by mattrixk
 
       <text name="md_description">
         <pos>9 9</pos>
-        <size>0.48 0.2</size>
+        <size>0.53 0.2</size>
         <color>000000</color>
         <fontPath>./_resources/Roboto-Regular.ttf</fontPath>
         <fontSize>0.026</fontSize>

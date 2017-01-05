@@ -5,12 +5,12 @@
 
     <view name="system">
       <image name="background_color" extra="true">
-        <color>6D4C41</color>
+        <color>BF360C</color>
       </image>
 
 
     	<image name="logo">
-  			<path>./system.svg</path>
+  			<path>./logo.png</path>
       </image>
 
   		<image name="ControllerOverlay" extra="true">
@@ -37,18 +37,49 @@
 
     <view name="basic, detailed">
       <image name="background_color" extra="true">
-        <color>6D4C41</color>
+        <color>BF360C</color>
       </image>
 
       <image name="logo">
-        <path>./system.svg</path>
+        <path>./logo.png</path>
   			<pos>0.005 0.015</pos>
   			<maxSize>0.460 0.126</maxSize>
   			<origin>0 0</origin>
 		  </image>
 
+      <image name="md_image">
+          <origin>0 0</origin>
+          <pos>0.45 0.2</pos>
+          <maxSize>0.3 0.3</maxSize>
+      </image>
+
+      <textlist name="gamelist">
+          <selectorColor>F0F0F0CC</selectorColor>
+          <selectedColor>0c0c0cCC</selectedColor>
+          <primaryColor>FFFFFFCC</primaryColor>
+          <secondaryColor>888888CC</secondaryColor>
+          <pos>0.02 0.2</pos>
+          <size>0.4 0.71</size>
+          <fontSize>0.03</fontSize>
+          <horizontalMargin>0.02</horizontalMargin>
+      </textlist>
+
+      <text name="md_description">
+        <pos>0.45 0.6</pos>
+        <size>0.45 0.2</size>
+        <color>f0f0f0</color>
+        <fontSize>0.03</fontSize>
+        <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <lineSpacing>1.6</lineSpacing>
+      </text>
+
     </view>
 
-    <view name="detailed"></view>
+    <view name="detailed">
+  		<image name="ControllerOverlayTwo2" extra="true">
+  			<pos>3 3</pos>
+  		</image>
+    </view>
 
 </theme>
