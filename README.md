@@ -10,10 +10,13 @@ follwing:       Make your own theme guide by mattrixk
 
 #Screenshots
 
-![alt text][http://i.imgur.com/ta8LEG5.png]
-![alt text][http://i.imgur.com/ffAAnNh.png]
-![alt text][http://i.imgur.com/b1RfdWG.png]
-![alt text][http://i.imgur.com/1AoQ5So.png]
+http://i.imgur.com/ta8LEG5.png
+
+http://i.imgur.com/ffAAnNh.png
+
+http://i.imgur.com/b1RfdWG.png
+
+http://i.imgur.com/1AoQ5So.png
 
 # License
 
