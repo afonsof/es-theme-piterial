@@ -8,6 +8,13 @@ license:        creative commons CC-BY-NC-SA
 based on:       "Carbon-master" by Rookervik
 follwing:       Make your own theme guide by mattrixk
 
+#Screenshots
+
+![alt text][http://i.imgur.com/ta8LEG5.png]
+![alt text][http://i.imgur.com/ffAAnNh.png]
+![alt text][http://i.imgur.com/b1RfdWG.png]
+![alt text][http://i.imgur.com/1AoQ5So.png]
+
 # License
 
 Summary of the license below:
